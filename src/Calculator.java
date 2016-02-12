@@ -3,7 +3,7 @@ import java.awt.GridLayout;
 import java.awt.BorderLayout; 
 public class Calculator { 
 
-	// ќбъ€вление всех компонентов калькул€тора. 
+// ќбъ€вление всех компонентов калькул€тора. 
 
 JPanel windowContent; 
 JTextField displayField; 
@@ -26,9 +26,7 @@ JButton buttonEqual;
 JPanel p1; 
 JPanel p2;
       
-	// ¬ конструкторе создаютс€ все компоненты 
-    // и добавл€ютс€ на фрейм с помощью комбинации 
-      // Borderlayout и Gridlayout 
+	// ¬ конструкторе создаютс€ все компоненты и добавл€ютс€ на фрейм с помощью комбинации Borderlayout и Gridlayout 
       Calculator(){ 
     windowContent= new JPanel();   
   
@@ -41,9 +39,7 @@ JPanel p2;
       displayField = new JTextField(30); 
       windowContent.add("North",displayField); 
      
-      // —оздаЄм кнопки, использу€ конструктор   
-     // класса JButton, который принимает текст  
-     // кнопки в качестве параметра  
+      // —оздаЄм кнопки, использу€ конструктор   класса JButton, который принимает текст кнопки в качестве параметра  
       
      button0=new JButton("0"); 
      button1=new JButton("1"); 
@@ -62,9 +58,7 @@ JPanel p2;
      buttonPoint = new JButton("."); 
      buttonEqual=new JButton("=");               
    
-     // —оздаЄм панель с GridLayout  
-   // котора€ содержит 12 кнопок - 10 кнопок с числами   
-   // и кнопки с точкой и знаком равно    
+     // —оздаЄм панель с GridLayout, котора€ содержит 12 кнопок - 10 кнопок с числами и кнопки с точкой и знаком равно    
      p1 = new JPanel(); 
      GridLayout gl =new GridLayout(4,3);  
      p1.setLayout(gl); 
@@ -102,8 +96,7 @@ JPanel p2;
      JFrame frame = new JFrame("Calculator"); 
      frame.setContentPane(windowContent); 
    
-     // делаем размер окна достаточным        
-    // дл€ того, чтобы вместить все компоненты 
+     // делаем размер окна достаточным дл€ того, чтобы вместить все компоненты 
      frame.pack();  
 
      // Ќаконец, отображаем окно 
