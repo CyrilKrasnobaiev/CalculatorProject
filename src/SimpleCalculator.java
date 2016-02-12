@@ -1,6 +1,7 @@
 import javax.swing.*; 
 import java.awt.*; 
 
+
 public class SimpleCalculator { 
  public static void main(String[] args) { 
   
@@ -39,3 +40,5 @@ public class SimpleCalculator {
       frame.setVisible(true); 
  } 
 }   
+//property of Cyril Krasnobaiev
+//property of Elena Krasnobaieva

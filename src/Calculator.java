@@ -106,3 +106,6 @@ JPanel p2;
     Calculator calc = new Calculator(); 
   } 
 } 
+
+//property of Cyril Krasnobaiev
+//property of Elena Krasnobaieva
