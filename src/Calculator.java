@@ -44,11 +44,7 @@ JPanel p2;
       // —оздаЄм кнопки, использу€ конструктор   
      // класса JButton, который принимает текст  
      // кнопки в качестве параметра  
-      JButton[] numButtons= new JButton[10]; 
-
-      for(int i = 0; i < numButtons.length;i++){    	  
-    	  button[i]=new JButton("0");
-      }
+      
      button0=new JButton("0"); 
      button1=new JButton("1"); 
      button2=new JButton("2"); 
