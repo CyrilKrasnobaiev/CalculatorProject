@@ -21,6 +21,7 @@ public class SimpleCalculator {
       JButton go = new JButton("Add");   
   
       // Добавляем компоненты на панель 
+      
       windowContent.add(label1);  
       windowContent.add(field1); 
       windowContent.add(label2); 
