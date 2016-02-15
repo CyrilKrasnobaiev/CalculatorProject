@@ -1,7 +1,7 @@
 import javax.swing.*; 
 import java.awt.GridLayout; 
 import java.awt.BorderLayout; 
-public class Calculator { 
+public class Calculator1 { 
 
 // Объявление всех компонентов калькулятора. 
 
@@ -27,7 +27,7 @@ JPanel p1;
 JPanel p2;
       
 	// В конструкторе создаются все компоненты и добавляются на фрейм с помощью комбинации Borderlayout и Gridlayout 
-      Calculator(){ 
+      Calculator1(){ 
     windowContent= new JPanel();   
   
     // Задаём схему для этой панели 
@@ -103,7 +103,7 @@ JPanel p2;
      frame.setVisible(true); 
  } 
   public static void main(String[] args) { 
-    Calculator calc = new Calculator(); 
+    Calculator1 calc = new Calculator1(); 
   } 
 } 
 
