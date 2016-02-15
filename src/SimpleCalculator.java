@@ -21,8 +21,7 @@ public class SimpleCalculator {
       JTextField result = new JTextField(10); 
       JButton go = new JButton("Add");   
   
-      // Добавляем компоненты на панель 
-      
+      // Добавляем компоненты на панель       
       windowContent.add(label1);  
       windowContent.add(field1); 
       windowContent.add(label2); 
@@ -40,5 +39,5 @@ public class SimpleCalculator {
       frame.setVisible(true); 
  } 
 }   
-//property of Cyril Krasnobaiev
-//property of Elena Krasnobaieva
+		//property of Cyril Krasnobaiev
+		//property of Elena Krasnobaieva

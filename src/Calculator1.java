@@ -4,7 +4,6 @@ import java.awt.BorderLayout;
 public class Calculator1 { 
 
 // ќбъ€вление всех компонентов калькул€тора. 
-
 JPanel windowContent; 
 JTextField displayField; 
 JButton button0; 
@@ -39,8 +38,7 @@ JPanel p2;
       displayField = new JTextField(30); 
       windowContent.add("North",displayField); 
      
-      // —оздаЄм кнопки, использу€ конструктор   класса JButton, который принимает текст кнопки в качестве параметра  
-      
+      // —оздаЄм кнопки, использу€ конструктор   класса JButton, который принимает текст кнопки в качестве параметра        
      button0=new JButton("0"); 
      button1=new JButton("1"); 
      button2=new JButton("2"); 
@@ -101,11 +99,11 @@ JPanel p2;
 
      // Ќаконец, отображаем окно 
      frame.setVisible(true); 
- } 
-  public static void main(String[] args) { 
-    Calculator1 calc = new Calculator1(); 
-  } 
-} 
+    } 
+      public static void main(String[] args) { 
+    	  Calculator1 calc = new Calculator1(); 
+      } 
+	} 
 
 //property of Cyril Krasnobaiev
 //property of Elena Krasnobaieva
